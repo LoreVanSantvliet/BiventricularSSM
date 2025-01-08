@@ -7,7 +7,7 @@ This repository is accompanied by the following [Zenodo repository](https://doi.
 ## Quickstart
 
 ## Contact
-Additional inquiries about data and code availability, questions, suggestions and feedback can be directed to Lore Van Santvliet (lore.vansantvliet@kuleuven.be), or by filing an [issue](Issues).
+Additional inquiries about data and code availability, questions, suggestions and feedback can be directed to Lore Van Santvliet (lore.vansantvliet@kuleuven.be), or by filing an [issue](https://github.com/LoreVanSantvliet/BiventricularSSM/issues).
 
 ## Citation
 When using this work, please cite the paper "Integrating anatomy and electrophysiology in the healthy human heart: Insights from biventricular statistical shape analysis using universal coordinate".
