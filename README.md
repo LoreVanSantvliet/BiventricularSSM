@@ -16,8 +16,8 @@ This repository is accompanied by the following [Zenodo repository](https://doi.
    ```
    import generate_surface_meshes
 
-   in_path = "/Users/ABC/Documents/BivMeshes/" # change path to the location where SSM.h5 is stored.
-   out_path = "/Users/ABC/Documents/BivMeshes/" # change path to the location where you want the generated synthetic meshes to be stored.
+   in_path = "/Users/ABC/Documents/BivMeshes/" # change to path of SSM.h5.
+   out_path = "/Users/ABC/Documents/BivMeshes/" # change to output path of choice.
    number = 10 # change to the amount of meshes you want to create
 
    generate_surface_meshes(in_path=SSM_path, out_path=out_path, number=number)
