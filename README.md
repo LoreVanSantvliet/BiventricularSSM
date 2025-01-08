@@ -4,4 +4,11 @@ This repository is associated with the paper "**Integrating anatomy and electrop
 
 This repository is accompanied by the following [Zenodo repository](https://doi.org/doi:10.5281/zenodo.14261122), containing the biventricular SSM itself, and a synthetic cohort of 100 biventricular, volumetric meshes, including fiber orientation and anatomical tags for LV and RV endo- and epicardium, and LV septum.
 
-Additional inquiries about data and code availability can be directed to Lore Van Santvliet (lore.vansantvliet@kuleuven.be). 
+## Quickstart
+
+## Contact
+Additional inquiries about data and code availability, questions, suggestions and feedback can be directed to Lore Van Santvliet (lore.vansantvliet@kuleuven.be), or by filing an [issue](Issues).
+
+## Citation
+When using this work, please cite the paper "Integrating anatomy and electrophysiology in the healthy human heart: Insights from biventricular statistical shape analysis using universal coordinate".
+
