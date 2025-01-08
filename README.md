@@ -20,7 +20,7 @@ This repository is accompanied by the following [Zenodo repository](https://doi.
    out_path = "/Users/ABC/Documents/BivMeshes/" # change to output path of choice
    number = 10 # change to the amount of meshes you want to create
 
-   gsm.generate_surface_mesh(in_path=SSM_path, out_path=out_path, number=number)
+   gsm.generate_surface_mesh(in_path=in_path, out_path=out_path, number=number)
    ```
 
 **For using the pre-made set of biventricular, volumetric meshes**
