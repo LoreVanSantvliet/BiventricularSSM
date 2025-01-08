@@ -14,13 +14,13 @@ This repository is accompanied by the following [Zenodo repository](https://doi.
    A minimal example to generate 10 synthetic surface meshes is provided below. The file containing this code should be located in the same location as the generate_surface_meshes.py file.
 
    ```
-   import generate_surface_meshes
+   import generate_surface_meshes as gsm
 
    in_path = "/Users/ABC/Documents/BivMeshes/" # change to path of SSM.h5
    out_path = "/Users/ABC/Documents/BivMeshes/" # change to output path of choice
    number = 10 # change to the amount of meshes you want to create
 
-   generate_surface_meshes(in_path=SSM_path, out_path=out_path, number=number)
+   gsm.generate_surface_mesh(in_path=SSM_path, out_path=out_path, number=number)
    ```
 
 **For using the pre-made set of biventricular, volumetric meshes**
