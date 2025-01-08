@@ -9,7 +9,7 @@ This repository is accompanied by the following [Zenodo repository](https://doi.
 **For inferring new, synthetic surface meshes of biventricular anatomy**
 1. Download the SSM file (file name "SSM.h5") from [Zenodo](https://doi.org/doi:10.5281/zenodo.14261122), and save it at a location of choice, for example `/Users/ABC/Documents/BivMeshes/`.
 2. Clone this repository or download the generate_surface_meshes.py file.
-3. Generate new synthetic surface meshes by sampling from the SSM, by calling the function generate_surface_meshes, and supplying as arguments the location of the SSM file, the location where the generated meshes will be saved, and the number of meshes to be created. Optionally, you can modify the number of principal components used, and the sampling strategy.
+3. Generate new synthetic surface meshes by sampling from the SSM, by calling the function generate_surface_meshes, and supplying as arguments the SSM file path, the path to the output folder, and the number of meshes to be created. Optionally, you can modify the number of principal components used, and the sampling strategy.
 
    A minimal example to generate 10 synthetic surface meshes is provided below. The file containing this code should be located in the same location as the generate_surface_meshes.py file.
 
