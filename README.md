@@ -7,8 +7,21 @@ This repository is accompanied by the following [Zenodo repository](https://doi.
 ## Quickstart
 
 **For inferring new, synthetic surface meshes of biventricular anatomy**
-1. Download the SSM (file name "SSM.zip") from [Zenodo](https://doi.org/doi:10.5281/zenodo.14261122), and save it at a location of choice, for example `Users/ABC/Documents/BivMeshes/`.
+1. Download the SSM file (file name "SSM.h5") from [Zenodo](https://doi.org/doi:10.5281/zenodo.14261122), and save it at a location of choice, for example `/Users/ABC/Documents/BivMeshes/`.
 2. Clone this repository or download the generate_surface_meshes.py file.
+3. Generate new synthetic surface meshes by sampling from the SSM, by calling the function generate_surface_meshes, and supplying as arguments the location of the SSM file, the location where the generated meshes will be saved, and the number of meshes to be created. Optionally, you can modify the number of principal components used, and the sampling strategy.
+
+   A minimal example to generate 10 synthetic surface meshes is provided below. The file containing this code should be located in the same location as the generate_surface_meshes.py file.
+
+   ```
+   import generate_surface_meshes
+
+   in_path = "/Users/ABC/Documents/BivMeshes/" # change path to the location where SSM.h5 is stored.
+   out_path = "/Users/ABC/Documents/BivMeshes/" # change path to the location where you want the generated synthetic meshes to be stored.
+   number = 10 # change to the amount of meshes you want to create
+
+   generate_surface_meshes(in_path=SSM_path, out_path=out_path, number=number)
+   ```
 
 **For using the pre-made set of biventricular, volumetric meshes**
 1. Download the synthetic cohort from [Zenodo](https://doi.org/doi:10.5281/zenodo.14261122), consisting of files synthetic_vol_000to009.zip, synthetic_vol_010to019.zip, synthetic_vol_020to029.zip, synthetic_vol_030to039.zip, synthetic_vol040to049.zip, synthetic_vol_050to059.zip, synthetic_vol060to069.zip, synthetic_vol_070to079.zip, synthetic_vol_080to089.zip and synthetic_vol_090to099.zip.
