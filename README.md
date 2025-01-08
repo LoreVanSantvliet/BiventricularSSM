@@ -16,7 +16,7 @@ This repository is accompanied by the following [Zenodo repository](https://doi.
    ```
    import generate_surface_meshes as gsm
 
-   in_path = "/Users/ABC/Documents/BivMeshes/" # change to path of SSM.h5
+   in_path = "/Users/ABC/Documents/BivMeshes/SSM.h5" # change to path of SSM.h5
    out_path = "/Users/ABC/Documents/BivMeshes/" # change to output path of choice
    number = 10 # change to the amount of meshes you want to create
 
