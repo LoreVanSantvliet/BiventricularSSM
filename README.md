@@ -9,9 +9,9 @@ This repository is accompanied by the following [Zenodo repository](https://doi.
 **For inferring new, synthetic surface meshes of biventricular anatomy**
 1. Download the SSM file (file name "SSM.h5") from [Zenodo](https://doi.org/doi:10.5281/zenodo.14261122), and save it at a location of choice, for example `/Users/ABC/Documents/BivMeshes/`.
 2. Clone this repository or download the generate_surface_meshes.py file.
-3. Generate new synthetic surface meshes by sampling from the SSM, by calling the function generate_surface_meshes, and supplying as arguments the SSM file path, the path to the output folder, and the number of meshes to be created. Optionally, you can modify the number of principal components used, and the sampling strategy.
+3. Generate new synthetic surface meshes by sampling from the SSM, by calling the function generate_surface_mesh, and supplying as arguments the SSM file path, the path to the output folder, and the number of meshes to be created. Optionally, you can modify the number of principal components used, and the sampling boundary.
 
-   A minimal example to generate 10 synthetic surface meshes is provided below. The file containing this code should be located in the same location as the generate_surface_meshes.py file.
+   A minimal example to generate 10 synthetic surface meshes is provided below. The code should be located in the same folder as the generate_surface_meshes.py file.
 
    ```
    import generate_surface_meshes as gsm
@@ -22,7 +22,7 @@ This repository is accompanied by the following [Zenodo repository](https://doi.
 
    gsm.generate_surface_mesh(in_path=in_path, out_path=out_path, number=number)
    ```
-   The output folder will contain the generated synthetic surface meshes in [vtk format](https://docs.vtk.org/en/latest/design_documents/VTKFileFormats.html).
+   After running the code, the provided output folder will contain the generated synthetic surface meshes in [vtk format](https://docs.vtk.org/en/latest/design_documents/VTKFileFormats.html).
 
 **For using the pre-made synthetic cohort of biventricular, volumetric meshes**
 1. Download the synthetic cohort from [Zenodo](https://doi.org/doi:10.5281/zenodo.14261122), consisting of files synthetic_vol_000to009.zip, synthetic_vol_010to019.zip, synthetic_vol_020to029.zip, synthetic_vol_030to039.zip, synthetic_vol040to049.zip, synthetic_vol_050to059.zip, synthetic_vol060to069.zip, synthetic_vol_070to079.zip, synthetic_vol_080to089.zip and synthetic_vol_090to099.zip.
