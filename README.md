@@ -16,7 +16,7 @@ This repository is accompanied by the following [Zenodo repository](https://doi.
    ```
    import generate_surface_meshes as gsm
 
-   input_path = "/Users/ABC/Documents/BivMeshes/SSM.h5" # change to input folder (containing SSM.h5 and mean_shape.vtk)
+   input_path = "/Users/ABC/Documents/BivMeshes/" # change to input folder (containing SSM.h5 and mean_shape.vtk)
    output_path = "/Users/ABC/Documents/BivMeshes/" # change to output path of choice
    num_samples = 10 # change to the amount of meshes you want to create
 
