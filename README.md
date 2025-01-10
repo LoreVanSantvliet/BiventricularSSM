@@ -16,11 +16,11 @@ This repository is accompanied by the following [Zenodo repository](https://doi.
    ```
    import generate_surface_meshes as gsm
 
-   in_path = "/Users/ABC/Documents/BivMeshes/SSM.h5" # change to path of SSM.h5
-   out_path = "/Users/ABC/Documents/BivMeshes/" # change to output path of choice
-   number = 10 # change to the amount of meshes you want to create
+   input_path = "/Users/ABC/Documents/BivMeshes/SSM.h5" # change to input folder (containing SSM.h5 and mean_shape.vtk)
+   output_path = "/Users/ABC/Documents/BivMeshes/" # change to output path of choice
+   num_samples = 10 # change to the amount of meshes you want to create
 
-   gsm.generate_surface_mesh(in_path=in_path, out_path=out_path, number=number)
+   gsm.generate_surface_mesh(input_path=in_path, output_path=out_path, num_samples=num_samples)
    ```
    After running the code, the provided output folder will contain the generated synthetic surface meshes in [vtk format](https://docs.vtk.org/en/latest/design_documents/VTKFileFormats.html).
 
