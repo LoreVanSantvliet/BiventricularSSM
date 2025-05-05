@@ -34,6 +34,7 @@ Additional inquiries about data and code availability, questions, suggestions an
 
 ## Citation
 When using this work, please cite the paper "Integrating anatomy and electrophysiology in the healthy human heart: Insights from biventricular statistical shape analysis using universal coordinates":
+
 Van Santvliet, L., Zappon, E., Gsell, M. A. F., Thaler, F., Blondeel, M., Dymarkowski, S., Claessen, G., Willems, R., Urschler, M., Vandenberk, B., Plank, G., & De Vos, M. (2025). Integrating anatomy and electrophysiology in the healthy human heart: Insights from biventricular statistical shape analysis using universal coordinates. Computers in Biology and Medicine, 192, 110230. https://doi.org/10.1016/j.compbiomed.2025.110230
 
 
