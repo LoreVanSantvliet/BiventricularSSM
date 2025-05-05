@@ -33,5 +33,7 @@ The resulting folders contain 100 synthetic volumetric meshes in [vtk format](ht
 Additional inquiries about data and code availability, questions, suggestions and feedback can be directed to Lore Van Santvliet (lore.vansantvliet@kuleuven.be), or by filing an [issue](https://github.com/LoreVanSantvliet/BiventricularSSM/issues).
 
 ## Citation
-When using this work, please cite the paper "Integrating anatomy and electrophysiology in the healthy human heart: Insights from biventricular statistical shape analysis using universal coordinates".
+When using this work, please cite the paper "Integrating anatomy and electrophysiology in the healthy human heart: Insights from biventricular statistical shape analysis using universal coordinates":
+Van Santvliet, L., Zappon, E., Gsell, M. A. F., Thaler, F., Blondeel, M., Dymarkowski, S., Claessen, G., Willems, R., Urschler, M., Vandenberk, B., Plank, G., & De Vos, M. (2025). Integrating anatomy and electrophysiology in the healthy human heart: Insights from biventricular statistical shape analysis using universal coordinates. Computers in Biology and Medicine, 192, 110230. https://doi.org/10.1016/j.compbiomed.2025.110230
+
 
